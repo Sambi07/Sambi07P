@@ -13,7 +13,18 @@
             <button class="btn btn-sm">Search</button>
 
         </div>
-
+    <button type="button" class="btn btn-secondary"
+        data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="This top tooltip is themed via CSS variables.">
+  Custom tooltip
+</button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with HTML
+</button>
+    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-html="true" data-bs-title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">
+  Tooltip with CSS
+</button>
   <head>
     <title>BIKASH PANDEY</title>
   <link rel="stylesheet"
@@ -34,12 +45,14 @@
                href="/blog">Blog</a></li>
       </ul>
     </nav>
+    
     <div class="container">
       <div class="blurb">
         <h1>Hi,I am Bikash Pandey!</h1>
         <p>This is my first webpage for my personal website!</a></p>
     </div>
   </div>
+    
 <div class="dropdown">
   <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
    My Social Accounts 
@@ -56,6 +69,22 @@
     <li><a
            href="mailto:PANDEYB3@MYMAIL.NKU.EDU">PANDEYB3@MYMAIL.NKU.EDU</a></li>
   </ul>
+  <div class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"> Quotes</h5>
+      </div>
+      <div class="modal-body">
+        <p>Talent without working hard is nothing.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 </footer>
 </body>
 </html>
